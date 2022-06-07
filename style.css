@@ -4,7 +4,21 @@
     box-sizing: border-box;
 }
 body{
-    background-color: cadetblue;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.63), purple);
+}
+.card{
+    /* background-image: linear-gradient(to right, teal, #fff1); */
+
+}
+.card-header{
+    background-color: #fff;
+}
+.card-footer{
+    background-image: linear-gradient(to top, teal, #fff);
+}
+a{
+    color: red !important;
+    text-decoration: none;
 }
 .height{
  height: 100vh;
@@ -13,4 +27,16 @@ body{
     position: relative;
     display: none;
     backface-visibility: hidden;
+}
+.third{
+    position: relative;
+    display: none;
+    backface-visibility: hidden;
+}
+.block{
+    display: block;
+}
+.middle{
+    position: relative;
+    justify-content: center;
 }

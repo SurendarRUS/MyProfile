@@ -1,14 +1,17 @@
 function second() {
    var hidden=document.getElementById("secondCard");
-
+   hidden.classList.toggle("block");
    if(hidden.style.display==="none"){ 
-       
-    hidden.style.display="block";
+   
     document.getElementById("next-btn").innerText="Close";
    }
    else{
-    hidden.style.display="none";
+    
     document.getElementById("next-btn").innerText="Next";
    }
+
+}
+function third(){
+   document.getElementById("thirdCard").classList.toggle("block");
 
 }
